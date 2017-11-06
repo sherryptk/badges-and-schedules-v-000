@@ -9,4 +9,7 @@ def batch_badge_creator(names)
 
   names.each do |name|
     messages << badge_maker(name)
+  end
+
+  messages
 end
